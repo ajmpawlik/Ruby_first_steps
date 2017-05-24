@@ -1,0 +1,39 @@
+Aleksandras-MacBook-Air:~ Aleksandra$ irb
+irb(main):001:0> number = 17
+=> 17
+irb(main):002:0> my_lucky_number=17
+=> 17
+irb(main):003:0> puts "hello World"
+hello World
+=> nil
+irb(main):004:0> puts "hello World" , "I am coding"
+hello World
+I am coding
+=> nil
+irb(main):005:0> my_name = "Aleksandra"
+=> "Aleksandra"
+irb(main):006:0> puts my_name
+Aleksandra
+=> nil
+irb(main):007:0> puts my_name.upcase
+ALEKSANDRA
+=> nil
+irb(main):008:0> my_name.upcase
+=> "ALEKSANDRA"
+irb(main):009:0> my_name.reverse
+=> "ardnaskelA"
+irb(main):010:0> my_name.upcase.reverse
+=> "ARDNASKELA"
+irb(main):011:0> my_name.upcase.reverse.reverse
+=> "ALEKSANDRA"
+irb(main):012:0> my_name.upcase.reverse.reverse.upcase
+=> "ALEKSANDRA"
+irb(main):013:0> Aleksandra.include?("Ale")
+NameError: uninitialized constant Aleksandra
+	from (irb):13
+	from /usr/bin/irb:12:in `<main>'
+irb(main):014:0> irb
+irb#1(main):001:0> "Aleksandra".include?('Ale')
+=> true
+irb#1(main):002:0> "Aleksandra:.include?('ALE')
+irb#1(main):003:0" 
